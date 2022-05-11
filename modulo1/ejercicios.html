@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const refresco = 1000
+        const cerveza = 5000
+        const papas = 3000
+     
+     var compra = prompt ('por favor podrias indicarme que producto deseas')
+     var cantidad = prompt("por favor indica la cantidad de producto que deseas")
+     var precio 
+     cantidad = parseInt(cantidad)
+     if (compra === "refresco") {
+          precio = refresco 
+     } else if (compra === 'cerveza'){
+                precio = cerveza
+    } else if (compra === 'papas') {
+                precio = papas
+    }
+     var precioTotal = cantidad * precio
+     alert (`por favor cancela ${precioTotal}`)
+
+    </script>
+</body>
+</html>
