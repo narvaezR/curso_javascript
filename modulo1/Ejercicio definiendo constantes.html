@@ -8,7 +8,20 @@
 </head>
 <body>
    <script>
-       const topping = prompt(dime el topping que deseas)
+//Ejercicio 1. Toppings de pizza
+
+//Escribe un programa que responda a un usuario que quiere comprar una pizza en una conocida marca de comida rápida cuanto le costará en función del topping que elija.
+
+//La pizza sin topping cuesta $6000.
+//El topping de piña cuesta $2000.
+//El topping de jamon cuesta $3000.
+//El topping de helado cuesta $1000.
+//El topping de salsas cuesta $500.
+
+//En caso de no disponer del topping solicitado por el usuario el programa escribirá por pantalla «no tenemos este topping, lo sentimos. » y a continuación informar del precio de la pizza sin ningún topping.
+//Finalmente, el programa muestra una alerta con el el precio de la pizza con el topping seleccionado (o ninguno).
+       
+       const topping = prompt('dime el topping que deseas')
        const toppingPiña = 2000
        const toppingJamon = 3000
        const toppingHelado = 1000
@@ -26,10 +39,10 @@
    else  if (topping=== "salsa") {
         costoPizza += toppingSalsa
     }
-    else if {
-        alert (`no tenemos disponible el topping ${toppingpizza}`)
+    else {
+        alert(`no tenemos diponible el topping ${topping}`)
     }
-    alert (`el preccio de su pizza es ${costoPizza}`)
+    alert (`el precio de su pizza es ${costoPizza}`)
    </script> 
 </body>
 </html>
