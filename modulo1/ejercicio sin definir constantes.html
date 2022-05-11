@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pizzeria del sur</h1>
+    <script> 
+ var toppingPizza = prompt ("Hola bienvenido a la pizzeria del sur, por favor dime que topping deseas para tu pizza")
+ var precioPizza = 6000
+ if (toppingPizza==="piña") {    
+    precioPizza= precioPizza +2000
+ } else if (toppingPizza === "jamon") {    
+    precioPizza= precioPizza + 3000
+ } else if (toppingPizza==="helado") {    
+    precioPizza= precioPizza + 1000
+ } else if (toppingPizza==="salsas") {    
+    precioPizza= precioPizza + 500
+ } else {
+  alert(`no tenemos diponible el topping ${toppingPizza}`)
+}
+alert(`El precio de su pizza es ${precioPizza}`)
+    </script>
+</body>
+</html>

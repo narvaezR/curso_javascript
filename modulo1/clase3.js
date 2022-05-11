@@ -55,7 +55,7 @@ true === !false
 //verdaderos 
 true && true // true 
 // Or | ó
-// para que un Or sea verdadero alguno de los valores a su izquierda o dereche deben ser verdaderos 
+// para que un Or sea verdadero alguno de los valores a su izquierda o derecha deben ser verdaderos 
 true || true
 true || false 
 false || false 
