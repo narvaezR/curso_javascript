@@ -40,6 +40,6 @@ var como = "como"
 var estas = "estas"
 var saludo = hola + como + estas
 
-var saludo2 = ${hola} ${como} ${estas}
+var saludo2 = `${hola} ${como} ${estas}`
 alert (saludo2)
 alert(saludo)

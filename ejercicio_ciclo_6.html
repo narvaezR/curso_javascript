@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /**
+         * Pedirle dos numeros pares al usuario y luego hacer un ciclo para imprimir los numeros pares que hay dentro de esos numeros
+
+Ejemplo:
+var primerPar = 10
+var segundoPar = 20
+
+Resultado:
+
+10
+12
+14
+16
+18
+20
+
+fin del programa
+         * */
+    
+        var numero1 = prompt('por favor dame un número par')
+        var numero2 = prompt ('por favor dame otro número par')
+        numero1 = parseInt(numero1)
+        numero2 = parseInt(numero2)
+    
+        if (numero1<numero2){
+        for (var contador = numero1; contador <= numero2; contador=contador+2 ){
+          console.log (contador)  
+        } 
+        } else {
+            for (var contador2=numero1; contador2 >= numero2; contador2= contador2-2){
+                console.log(contador2)
+            }
+        }
+
+    </script>
+</body>
+</html>

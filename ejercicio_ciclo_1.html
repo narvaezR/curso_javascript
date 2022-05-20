@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+       //imprimir numeros de un rango 
+       //pedir al usuario dos numeros, luego imprimir los números entre esos dos rangos
+       var numero1 = prompt('Por favor dame un numero')
+       var numero2 = prompt('Por favor dame un segundo numero')
+       if (isNaN(numero1)|| isNaN (numero2)){
+        alert ('solo se aceptan números')
+       }else {
+        numero1 = parseInt(numero1)
+        numero2 = parseInt(numero2)
+
+        for (var contador =numero1; contador <= numero2; contador++) {
+            alert(contador)
+
+        }
+       }
+   </script> 
+</body>
+</html>
